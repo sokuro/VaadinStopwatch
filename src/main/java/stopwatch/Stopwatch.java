@@ -16,12 +16,14 @@ public class Stopwatch implements StopwatchEvents {
 
     @Override
     public void handleB1() {
-
+        state.exit();
+        state.handleB1();
     }
 
     @Override
     public void handleB2() {
-
+        state.exit();
+        state.handleB2();
     }
 
     public void setState(State state) {
