@@ -5,6 +5,6 @@ package stopwatch.interfaces;
  */
 public interface StopwatchEvents {
 
-    public void handleB1();
-    public void handleB2();
+    void handleB1();
+    void handleB2();
 }
